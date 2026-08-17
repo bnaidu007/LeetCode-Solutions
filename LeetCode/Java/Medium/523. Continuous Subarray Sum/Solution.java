@@ -8,7 +8,7 @@ class Solution {
         for(int right=left;right<nums.length;right++){
             int sum =prefix[right+1]-prefix[left];
 
-            if(sum==k){
+            if(sum%k==0){
                 return true;
             }
         }
