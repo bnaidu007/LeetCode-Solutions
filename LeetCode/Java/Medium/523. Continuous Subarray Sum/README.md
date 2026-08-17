@@ -1,6 +1,6 @@
 # 📝 523. Continuous Subarray Sum (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/continuous-subarray-sum/solutions/5276951/fasterless-mem2-methodsdetailed-approach-77ju/)
+🔗 [Problem Link](https://leetcode.com/problems/continuous-subarray-sum/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
