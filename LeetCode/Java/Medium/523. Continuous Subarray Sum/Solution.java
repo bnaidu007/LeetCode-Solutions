@@ -11,7 +11,10 @@ class Solution {
         for(int right=left+1;right<nums.length;right++){
             long sum =prefix[right+1]-prefix[left];
 
-            if(sum%k==0){
+            if(k!=0 && sum%k==0){
+                return true;
+            }
+            if(sum==0 &&k==0){
                 return true;
             }
         }
