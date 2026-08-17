@@ -1,24 +1,28 @@
-class Solution {
+public class Solution {
     public boolean checkSubarraySum(int[] nums, int k) {
-        if(nums.length<2){
-            return false;
-        }
-       int prefix[] = new int[nums.length+1];
-       for(int i=0;i<nums.length;i++){
-        prefix[i+1]=prefix[i]+nums[i];
-       } 
-       for(int left=0;left<nums.length;left++){
-        for(int right=left+1;right<nums.length;right++){
-            long sum =prefix[right+1]-prefix[left];
-
-            if(k!=0 && sum%k==0){
-                return true;
+        int n = nums.length;
+        
+        // Step 1: Iterate Through Starting Points
+        for (int start = 0; start < n - 1; start++) {
+            // Step 2: Expand the Subarray
+            for (int end = start + 1; end < n; end++) {
+                // Step 3: Calculate the Sum
+                int subarraySum = 0;
+                for (int i = start; i <= end; i++) {
+                    subarraySum += nums[i];
+                }
+                
+                // Step 4: Check if the Sum is a Multiple of k
+                if (subarraySum == 0 && k == 0) { // Handling special case where k is 0
+                    return true;
+                }
+                if (k != 0 && subarraySum % k == 0) {
+                    return true;
+                }
             }
-            if(sum==0 &&k==0){
-                return true;
-            }
         }
-       }
-       return false;
+        
+        // Step 5: Return the Result
+        return false;
     }
 }
