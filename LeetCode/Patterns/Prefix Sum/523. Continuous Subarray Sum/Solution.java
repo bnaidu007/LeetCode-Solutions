@@ -9,7 +9,7 @@ class Solution {
        } 
        for(int left=0;left<nums.length;left++){
         for(int right=left+1;right<nums.length;right++){
-            int sum =prefix[right+1]-prefix[left];
+            lon sum =prefix[right+1]-prefix[left];
 
             if(sum%k==0){
                 return true;
