@@ -8,7 +8,7 @@
 Array, Hash Table
 
 ### 🚀 Performance
-- **Runtime:** 3 ms
+- **Runtime:** 4 ms
 - **Memory:** 47.4 MB
 
 ---
