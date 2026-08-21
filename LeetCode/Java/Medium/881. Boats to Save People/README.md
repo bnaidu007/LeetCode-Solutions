@@ -1,6 +1,6 @@
 # 📝 881. Boats to Save People (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/boats-to-save-people/)
+🔗 [Problem Link](https://leetcode.com/problems/boats-to-save-people)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
