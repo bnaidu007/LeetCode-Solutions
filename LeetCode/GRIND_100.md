@@ -10,7 +10,7 @@ Track your progress on the Grind 100 coding interview preparation list.
 ## Checklist
 
 ### 📂 Array & Two Pointers
-- [x] [Two Sum](./Java/Easy/1. Two Sum/)
+- [x] [Two Sum](./Python/Easy/1. Two Sum/)
 - [x] [3Sum](./Java/Medium/15. 3Sum/)
 - [x] [Container With Most Water](./Java/Medium/11. Container With Most Water/)
 - [ ] Move Zeroes
